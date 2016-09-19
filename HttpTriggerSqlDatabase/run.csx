@@ -21,7 +21,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
             
             // insert a log to the database
             connection.Execute("INSERT INTO [dbo].[LogRequest] ([Log]) VALUES (@Log)", rLog);
-            log.Info("Log added to database successfully VCODE MAX IS NOT PUTONA!");
+            log.Info("Log added to database successfully VCODE MAX IS NOT PUTONA 2222!");
         }
     }
     catch(Exception ex)
